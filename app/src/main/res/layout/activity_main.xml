@@ -9,7 +9,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Toast"
+        android:text="Press me to get a Toast"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
         android:onClick="toastBtn"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
