@@ -5,45 +5,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.shobhitsagar.toast.MainActivity">
-    
+
     <Button
         android:id="@+id/circleBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbuttonshape"
+        android:onClick="toastBtn"
+        android:padding="10dp"
         android:text="Press me to get a circular Toast"
         android:textAllCaps="false"
-        android:padding="10dp"
-        android:background="@drawable/roundbuttonshape"
-        android:textColor="#ffffff"
-        android:onClick="toastBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/rectBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/circleBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="rectToastBtn"
+        android:padding="10dp"
         android:text="Press me to get a rectangular Toast"
         android:textAllCaps="false"
-        android:padding="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="#ffffff"
-        android:onClick="rectToastBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:layout_below="@id/circleBtn"/>
+        android:textColor="#ffffff" />
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press me to get a Toast with Icon"
-        android:textAllCaps="false"
-        android:padding="10dp"
-        android:background="@color/colorPrimaryDark"
-        android:textColor="#ffffff"
-        android:onClick="rectToastImageBtn"
+        android:layout_below="@id/rectBtn"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
-        android:layout_below="@id/rectBtn"/>
+        android:background="@color/colorPrimaryDark"
+        android:onClick="rectToastImageBtn"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:text="Press me to get a Toast with Icon"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Press me to get a Toast with Icon"-->
+    <!--android:textAllCaps="false"-->
+    <!--android:padding="10dp"-->
+    <!--android:background="@color/colorPrimaryDark"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:onClick="rectToastImageBtn"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="60dp"-->
+    <!--android:layout_below="@id/rectBtn"/>-->
 
 </RelativeLayout>
