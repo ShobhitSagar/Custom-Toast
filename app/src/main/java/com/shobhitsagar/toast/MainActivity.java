@@ -38,4 +38,17 @@ public class MainActivity extends AppCompatActivity {
         customToast.setDuration(Toast.LENGTH_LONG);
         customToast.show();
     }
+
+    public void rectToastImageBtn(View view) {
+
+        Context context = getApplicationContext();
+        LayoutInflater inflater = getLayoutInflater();
+
+        View CustomToastView = inflater.inflate(R.layout.toast_layout_with_image, null);
+        Toast customToast = new Toast(context);
+
+        customToast.setView(CustomToastView);
+        customToast.setDuration(Toast.LENGTH_SHORT);
+        customToast.show();
+    }
 }
