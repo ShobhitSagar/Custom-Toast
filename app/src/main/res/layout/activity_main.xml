@@ -57,17 +57,4 @@
             android:textColor="#FFF" />
     </LinearLayout>
 
-    <!--<Button-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:text="Press me to get a Toast with Icon"-->
-    <!--android:textAllCaps="false"-->
-    <!--android:padding="10dp"-->
-    <!--android:background="@color/colorPrimaryDark"-->
-    <!--android:textColor="#ffffff"-->
-    <!--android:onClick="rectToastImageBtn"-->
-    <!--android:layout_centerHorizontal="true"-->
-    <!--android:layout_marginTop="60dp"-->
-    <!--android:layout_below="@id/rectBtn"/>-->
-
 </RelativeLayout>
