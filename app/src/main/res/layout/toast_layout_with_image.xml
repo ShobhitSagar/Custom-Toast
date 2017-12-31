@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="This is a Custom Toast"
+            android:text="This is a Custom Toast with icon"
             android:textColor="#ffffff"
             android:textSize="16dp"
             android:fontFamily="serif-monospace"
