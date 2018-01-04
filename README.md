@@ -1,6 +1,7 @@
 # Custom-Toast
 
 This is a simple app for a custom toast.
+> Easy and good for Learning purpose.
 
 ---
 
